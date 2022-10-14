@@ -246,7 +246,7 @@ main {
 /* DATE  */
 .main-currency-table .currency-table__date {
   width: 85%;
-  max-width: ;
+  max-width: 320px;
   margin: 0 auto;
   font-size: 1.2rem;
   text-align: center;
