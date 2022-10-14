@@ -137,7 +137,8 @@ main {
   color: #757575;
 }
 
-/* TABLE------------------------------------ */
+/* TABLES ------------------------------------ */
+/* CURRENCYS */
 .main-currency-table {
   width: 70%;
   min-width: 235px;
@@ -179,9 +180,6 @@ main {
 .currency-table__container .currency-table__money .currency-table__bottom-left {
   border: none;
 }
-.currency-table__container .currency-table__price .currency-table__bottom-right {
-  border: none;
-}
 .currency-table__container .currency-table__price {
   width: 98%;
   border-top-right-radius: 15px;
@@ -191,12 +189,15 @@ main {
   font-weight: 500;
   line-height: 65px;
   padding: 0 2rem;
-  color: var(--grey);
+  color: #747474;
 }
 .currency-table__container .currency-table__price div {
   position: relative;
   border-bottom: solid 2px var(--off-white);
   font-weight: 300;
+}
+.currency-table__container .currency-table__price .currency-table__bottom-right {
+  border: none;
 }
 .currency-table__container .currency-table__price span {
   display: inline-block;
@@ -256,3 +257,75 @@ main {
   border-radius: 10px;
 }
 /* COMMISSIONS--------------------- */
+.main-commission-table {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+}
+.main-commission-table .commission-table__title {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--secondary-blue);
+}
+.commission-table__container {
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: repeat(4, 1fr); */
+}
+.commission-table__container .commission-table__broker {
+  width: 98%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: var(--just-white);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 65px;
+  padding: 0 2rem;
+  color: var(--grey);
+}
+.commission-table__container .commission-table__price {
+  width: 98%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: var(--just-white);
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 65px;
+  padding: 0 2rem;
+  color: #747474;
+}
+.commission-table__container .commission-table__broker div {
+  border-bottom: solid 2px var(--off-white);
+}
+.commission-table__container .commission-table__broker .commission-table__bottom-left {
+  border: none;
+}
+.commission-table__container .commission-table__price div {
+  border-bottom: solid 2px var(--off-white);
+}
+.commission-table__container .commission-table__price .commission-table__bottom-right {
+  border: none;
+}
+/* DATE  */
+.main-commission-table .commission-table__date {
+  width: 85%;
+  max-width: 320px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: var(--soft-blue);
+  border-radius: 10px;
+}
